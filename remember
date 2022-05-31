@@ -1,0 +1,12 @@
+// M A L L O C
+// Creating a storage memory for a pointer
+
+Typ * ptr = malloc(sizeof(Typ))
+
+if(ptr == NULL){
+     perror(„malloc“);
+     exit(EXIT_FAILURE);
+} 
+
+
+
